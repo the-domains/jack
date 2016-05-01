@@ -1,14 +1,26 @@
-layout_spectrum: 0.1264629
 color:
   saturation: 0.8260441
-  lightness: 0.676189
   brandStrength: 0.9135338
+  rhythmicContrast: 0.536421
   brandColors:
     - '#0B060A'
     - '#EAEDD0'
     - '#FB3067'
     - '#A08E76'
     - '#66453E'
-  rhythmicContrast: 0.536421
+  lightness: 0.676189
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+layout_spectrum: 0.1264629
 typography_spectrum: 0.4387755
 name: Jack
